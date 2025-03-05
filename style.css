@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+.main{
+    background-color:hsl(217, 54%, 11%) ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:"Outfit",serif;
+    font-size: 18px;}
+
+.bubble{
+    background-color:hsl(216, 50%, 16%) ;
+    width: 22%;
+    text-align: center;
+    border-radius: 10px;}
+
+.equi{
+    margin-top: 20px;}
+
+.equi img{
+    width: 90%;
+    border-radius: 8px;}
+
+h3{
+    color:hsl(0, 0%, 100%);
+    font-weight: 400;
+    text-align: left;
+    padding-left: 18px;
+    margin-top: 15px;}
+
+p{
+    color:hsl(215, 51%, 70%) ;
+    margin: 15px 0px;
+    text-align: left;
+    padding-left: 18px;
+    font-weight: 300;}
+
+.info{display: flex;
+    justify-content:space-between;
+    color:hsl(215, 51%, 70%) ;
+    font-size: 16px;
+    font-weight: 400;}
+
+.eth {display: flex;
+    gap: 4px;
+    font-size: 14px;
+    text-align: left;
+    color:hsl(178, 100%, 50%) ;}
+
+.eth img{
+    width: 12px;
+    margin-right: 4px;}
+
+.clock{display: flex;
+    gap: 4px;
+    font-size: 14px;
+    padding-right: 20px;}
+
+.clock img{
+    width: 15px;}
+
+.hr1{
+    margin:10px 15px;
+    opacity: 0.1;}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 400;}
+
+.avatar img{
+    margin-left: 18px;
+    width:12%;
+    border: 1px solid white;
+    border-radius: 50%;}
+
+.creator{
+    color:hsl(0, 0%, 100%) ;}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+
+.attribution a {
+    color: hsl(0, 0%, 100%);}
+
+/*@media (max-width:375px){
+    .main{
+        width: 90%;
+        height: auto;}
+    }
+        
+@media (max-width:767px){
+    .main{
+        width: 90%;
+        height: auto;}
+    }*/
