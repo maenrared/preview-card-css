@@ -97,7 +97,7 @@ p{
 
 @media (max-width: 767px) {
     .main {
-        height: auto;
+        height: 100vh;
         padding: 20px;
     }
     .bubble {
