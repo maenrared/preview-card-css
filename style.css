@@ -93,16 +93,28 @@ p{
 .attribution a {
     color: hsl(0, 0%, 100%);}
 
-/* Responsive Design */
 
-@media (max-width: 767px) {
-    .main {
-        height: 100vh;
-        padding: 20px;
+/* Responsive Design */
+@media (max-width: 480px) {
+    .social-media {
+        width: 90%;
+        padding: 15px;
     }
+
     .bubble {
-        width: 80%;
+        width: 100%;
     }
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 
 
