@@ -93,14 +93,16 @@ p{
 .attribution a {
     color: hsl(0, 0%, 100%);}
 
-/*@media (max-width:375px){
-    .main{
-        width: 90%;
-        height: auto;}
+/* Responsive Design */
+
+@media (max-width: 767px) {
+    .main {
+        height: auto;
+        padding: 20px;
     }
-        
-@media (max-width:767px){
-    .main{
-        width: 90%;
-        height: auto;}
-    }*/
+    .bubble {
+        width: 80%;
+    }
+}
+
+
